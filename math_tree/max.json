@@ -1,0 +1,51 @@
+{
+  "type": "program",
+  "name": "",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "min"
+      },
+      "params": [
+        {
+          "type": "FunctionParameter",
+          "valueType": "int",
+          "id": {
+            "type": "Identifier",
+            "name": "a"
+          }
+        },
+        {
+          "type": "FunctionParameter",
+          "valueType": "int",
+          "id": {
+            "type": "Identifier",
+            "name": "b"
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "IfStatement",
+            "test": {
+              "type": "BinaryExpression"
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "returnType": "int"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+function min((int|float|double) a, (int|float|double) b) {
+
+    if (a < b)
+        return a;
+
+    return b;
+
+}
