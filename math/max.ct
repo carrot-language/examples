@@ -1,4 +1,4 @@
-function min(int a, int b) {
+int min(int a, int b):int {
 
     if (a > b)
         return a;
