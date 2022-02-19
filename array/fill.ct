@@ -1,0 +1,13 @@
+Array<int> fill(int count) {
+
+    Array<int> output = new Array<int>(count);
+
+    for (int i = 0; i < output.length(); i++) {
+
+        output[i] = 0;
+
+    }
+
+    return output;
+
+}

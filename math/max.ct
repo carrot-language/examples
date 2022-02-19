@@ -1,8 +1,11 @@
-int min(int a, int b) {
+# SPREAD TYPE [ int, float, double ]
+TYPE min(TYPE a, TYPE b) {
 
+    // If A is lower than B, return A
     if (a > b)
         return a;
 
+    // Otherwise, return B
     return b;
 
 }
